@@ -1,0 +1,1 @@
+C:\Users\mohsen\IdeaProjects\telegram-gradle-plugin\buildSrc\build\classes\kotlin\main\TelegramPlugin.class;C:\Users\mohsen\IdeaProjects\telegram-gradle-plugin\buildSrc\build\classes\kotlin\main\TelegramTask.class
