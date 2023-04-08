@@ -1,2 +1,3 @@
-rootProject.name = "telegram-gradle-plugin"
+rootProject.name = "teleport"
+
 
