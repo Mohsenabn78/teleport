@@ -13,8 +13,6 @@ group = "io.mohsen.teleport"
 version = "1.0"
 
 
-
-
 gradlePlugin {
     plugins {
         create("plugin") {
@@ -31,7 +29,6 @@ pluginBundle {
     vcsUrl = "https://github.com/Mohsenabn78/teleport.git"
     tags = listOf("telegram","deliver","apk","upload")
 }
-
 
 
 repositories {
