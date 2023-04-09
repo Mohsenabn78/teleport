@@ -6,24 +6,29 @@ import org.gradle.process.ExecResult
 import java.io.File
 import io.github.resilience4j.retry.Retry
 import io.github.resilience4j.retry.RetryConfig
+import org.gradle.api.tasks.Input
 import java.time.Duration
 
 
 open class TelegramTask : DefaultTask() {
 
+    @Input
+    var taskEnabled: Boolean = true
+
+    @Input
+    var attemptCount: Int = 1
+
+    @Input
+    var attemptDuration: Long = 100
+
     init {
         group = "deliver"
-        enabled = true
+        enabled = taskEnabled
     }
 
     @TaskAction
-    fun sendApkToTelegram() {
-        val retryConfig = RetryConfig.custom<Any>()
-            .maxAttempts(3)
-            .waitDuration(Duration.ofSeconds(5))
-            .build()
-        val retry = Retry.of("sendApkToTelegram", retryConfig)
-
+    fun uploadApk() {
+        val retry = makeRetryHandler()
         retry.executeSupplier<Any> {
 
             val jsonFile = File(project.projectDir.path + "/secret.json")
@@ -37,7 +42,7 @@ open class TelegramTask : DefaultTask() {
 
             if (!apkFile.exists()) throw GradleException("apk file not found in ${apkFile.path}")
 
-            val process = project.exec {
+            project.exec {
                 it.commandLine(
                     "curl",
                     "-F", "document=@$apkFile",
@@ -45,20 +50,16 @@ open class TelegramTask : DefaultTask() {
                 )
             }
 
-            logProcessOutput(process)
-
         }
 
     }
 
-
-    private fun logProcessOutput(res: ExecResult) {
-        println()
-        if (res.exitValue == 0) {
-            println("............. UPLOAD IS SUCCESSFUL ..............")
-        } else {
-            throw GradleException("upload process is failed! please check network")
-        }
+    private fun makeRetryHandler(): Retry {
+        val retryConfig = RetryConfig.custom<Any>()
+            .maxAttempts(attemptCount)
+            .waitDuration(Duration.ofMillis(attemptDuration))
+            .build()
+        return Retry.of("uploadApk", retryConfig)
     }
 
 }

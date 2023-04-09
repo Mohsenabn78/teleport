@@ -7,10 +7,12 @@ plugins {
     id("org.gradle.java-gradle-plugin")
 }
 
-apply<TelegramPlugin>()
+apply<TeleportPlugin>()
 
 group = "io.mohsen.teleport"
 version = "1.0"
+
+
 
 
 gradlePlugin {

@@ -2,9 +2,6 @@ plugins {
     kotlin("jvm") version "1.5.10"
     groovy
     java
-
-    id("com.gradle.plugin-publish") version "1.2.0"
-    `java-gradle-plugin`
 }
 
 repositories {
