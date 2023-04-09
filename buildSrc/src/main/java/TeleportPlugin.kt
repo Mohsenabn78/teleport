@@ -4,7 +4,6 @@ import org.gradle.api.Project
 
 open class TeleportPlugin : Plugin<Project> {
 
-
     companion object {
         const val DEFAULT_ENABLED = true
         const val DEFAULT_ATTEMPT_COUNT = 1
