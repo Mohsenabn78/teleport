@@ -6,17 +6,17 @@ plugins {
     id("org.gradle.java-gradle-plugin")
 }
 
-apply<TeleportPlugin>()
+//apply<TeleportPlugin>()
 
-group = "io.mohsen.teleport"
-version = "1.0"
+group = "io.github.mohsenabn78.teleport"
+version = "1.0.0"
 
 
 gradlePlugin {
     plugins {
         create("plugin") {
-            id = "io.mohsen.teleport"
-            implementationClass = "TelegramPlugin"
+            id = "io.github.mohsenabn78.teleport"
+            implementationClass = "TeleportPlugin"
             displayName = "teleport plugin"
             description = " a plugin for send apk to telegram and other platform "
         }
@@ -27,6 +27,7 @@ pluginBundle {
     website = "https://github.com/Mohsenabn78/teleport"
     vcsUrl = "https://github.com/Mohsenabn78/teleport.git"
     tags = listOf("telegram","deliver","apk","upload")
+
 }
 
 
