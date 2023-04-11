@@ -4,7 +4,7 @@
 
 <img src="https://github.com/Mohsenabn78/teleport/blob/main/resource/logo.gif" alt="Teleport Logo" width="60%" height="400">
 
-#Teleport is a Gradle plugin that automates the delivery process of Android applications to a Telegram channel.
+# Teleport is a Gradle plugin that automates the delivery process of Android applications to a Telegram channel.
 
 ## Usage
 
