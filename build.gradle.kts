@@ -1,9 +1,8 @@
 plugins {
     kotlin("jvm") version "1.5.10"
-    groovy
-    java
     id("com.gradle.plugin-publish") version "1.2.0"
     id("org.gradle.java-gradle-plugin")
+    id("org.jetbrains.dokka") version "1.5.0"
 }
 
 //apply<TeleportPlugin>()
@@ -32,6 +31,7 @@ pluginBundle {
 
 
 repositories {
+    google()
     mavenCentral()
 }
 
