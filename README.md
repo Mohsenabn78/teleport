@@ -52,6 +52,16 @@ configure<TeleportExtension> {
 }
 ```
 
+If you do not specify a value, the default value will be set
+
+| enabled  | true           |
+| attemptCount | 1 |
+| attemptDuration | 5000 |
+| caption | "" |
+| applicationName | "app" |
+| buildType | ApplicationMode.RELEASE |
+
+
 ## License
 
 Teleport is licensed under the MIT License. See the LICENSE file for more information.
