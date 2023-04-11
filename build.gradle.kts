@@ -8,7 +8,7 @@ plugins {
 //apply<TeleportPlugin>()
 
 group = "io.github.mohsenabn78.teleport"
-version = "1.0.0"
+version = "1.1.0"
 
 
 gradlePlugin {
