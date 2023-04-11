@@ -16,7 +16,7 @@ To use Teleport and send your Android application to a Telegram channel, you fir
 3. Choose a display name and username for your bot.
 4. After creating the bot, copy the bot token provided to you and paste it into the `secret.json` file in your project.
 5. Add the bot to the Telegram channel where you want to send your application.
-6. To find the chat ID of the channel, go to the channel and click on its name at the top of the page. The channel will open, and its address will be displayed to you. The chat ID is the number after the `-` sign in the address. Add this chat ID to the `secret.json` file.
+6. To find the chat ID of the channel, go to the channel and click on its name at the top of the page. The channel will open, and its address will be displayed to you. The chat ID is the number after the `-` sign in the address. Or send a message from the group or channel you added your bot to @usereInfoBot to give you the chat id Add this chat ID to the `secret.json` file.
 
 After completing these steps, your `secret.json` file should look like this:
 
