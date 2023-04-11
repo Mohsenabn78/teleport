@@ -1,0 +1,46 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/teleport/[root]/index.html
+$dokka.location:/ApplicationMode.DEBUG///PointingToDeclaration/teleport/[root]/-application-mode/-d-e-b-u-g/index.html
+$dokka.location:/ApplicationMode.RELEASE///PointingToDeclaration/teleport/[root]/-application-mode/-r-e-l-e-a-s-e/index.html
+$dokka.location:/ApplicationMode///PointingToDeclaration/teleport/[root]/-application-mode/index.html
+$dokka.location:/TelegramTask.Companion///PointingToDeclaration/teleport/[root]/-telegram-task/-companion/index.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_APP_NAME/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-a-p-p_-n-a-m-e.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_ATTEMPT_COUNT/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-a-t-t-e-m-p-t_-c-o-u-n-t.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_ATTEMPT_DURATION/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-a-t-t-e-m-p-t_-d-u-r-a-t-i-o-n.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_CAPTION/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-c-a-p-t-i-o-n.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_ENABLED/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-e-n-a-b-l-e-d.html
+$dokka.location:/TelegramTask.Companion/DEFAULT_TASK_GROUP/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-d-e-f-a-u-l-t_-t-a-s-k_-g-r-o-u-p.html
+$dokka.location:/TelegramTask.Companion/SIGNED_APK_NAME/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-s-i-g-n-e-d_-a-p-k_-n-a-m-e.html
+$dokka.location:/TelegramTask.Companion/UNSIGNED_APK_NAME/#/PointingToDeclaration/teleport/[root]/-telegram-task/-companion/-u-n-s-i-g-n-e-d_-a-p-k_-n-a-m-e.html
+$dokka.location:/TelegramTask///PointingToDeclaration/teleport/[root]/-telegram-task/index.html
+$dokka.location:/TelegramTask/TelegramTask/#/PointingToDeclaration/teleport/[root]/-telegram-task/-telegram-task.html
+$dokka.location:/TelegramTask/applicationName/#/PointingToDeclaration/teleport/[root]/-telegram-task/application-name.html
+$dokka.location:/TelegramTask/attemptCount/#/PointingToDeclaration/teleport/[root]/-telegram-task/attempt-count.html
+$dokka.location:/TelegramTask/attemptDuration/#/PointingToDeclaration/teleport/[root]/-telegram-task/attempt-duration.html
+$dokka.location:/TelegramTask/buildType/#/PointingToDeclaration/teleport/[root]/-telegram-task/build-type.html
+$dokka.location:/TelegramTask/caption/#/PointingToDeclaration/teleport/[root]/-telegram-task/caption.html
+$dokka.location:/TelegramTask/taskEnabled/#/PointingToDeclaration/teleport/[root]/-telegram-task/task-enabled.html
+$dokka.location:/TelegramTask/uploadApk/#/PointingToDeclaration/teleport/[root]/-telegram-task/upload-apk.html
+$dokka.location:/TeleportExtension///PointingToDeclaration/teleport/[root]/-teleport-extension/index.html
+$dokka.location:/TeleportExtension/applicationName/#/PointingToDeclaration/teleport/[root]/-teleport-extension/application-name.html
+$dokka.location:/TeleportExtension/attemptCount/#/PointingToDeclaration/teleport/[root]/-teleport-extension/attempt-count.html
+$dokka.location:/TeleportExtension/attemptDuration/#/PointingToDeclaration/teleport/[root]/-teleport-extension/attempt-duration.html
+$dokka.location:/TeleportExtension/buildType/#/PointingToDeclaration/teleport/[root]/-teleport-extension/build-type.html
+$dokka.location:/TeleportExtension/caption/#/PointingToDeclaration/teleport/[root]/-teleport-extension/caption.html
+$dokka.location:/TeleportExtension/enabled/#/PointingToDeclaration/teleport/[root]/-teleport-extension/enabled.html
+$dokka.location:/TeleportPlugin.Companion///PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/index.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_APP_NAME/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-a-p-p_-n-a-m-e.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_ASSEMBLE_DEBUG_TASK/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-a-s-s-e-m-b-l-e_-d-e-b-u-g_-t-a-s-k.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_ASSEMBLE_RELEASE_TASK/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-a-s-s-e-m-b-l-e_-r-e-l-e-a-s-e_-t-a-s-k.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_ATTEMPT_COUNT/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-a-t-t-e-m-p-t_-c-o-u-n-t.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_ATTEMPT_DURATION/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-a-t-t-e-m-p-t_-d-u-r-a-t-i-o-n.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_CAPTION/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-c-a-p-t-i-o-n.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_ENABLED/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-e-n-a-b-l-e-d.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_EXTENSION_NAME/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-e-x-t-e-n-s-i-o-n_-n-a-m-e.html
+$dokka.location:/TeleportPlugin.Companion/DEFAULT_TASK_NAME/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-companion/-d-e-f-a-u-l-t_-t-a-s-k_-n-a-m-e.html
+$dokka.location:/TeleportPlugin///PointingToDeclaration/teleport/[root]/-teleport-plugin/index.html
+$dokka.location:/TeleportPlugin/TeleportPlugin/#/PointingToDeclaration/teleport/[root]/-teleport-plugin/-teleport-plugin.html
+$dokka.location:/TeleportPlugin/apply/#org.gradle.api.Project/PointingToDeclaration/teleport/[root]/-teleport-plugin/apply.html
+
+

@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mohsenabn78.teleport",
+    "module": "teleport",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "teleport-1.0.0.jar",
+          "url": "teleport-1.0.0.jar",
+          "size": 9354,
+          "sha512": "81bbfece61e46a270bb7e617070f2fe6a33a3f78a5d6e215630dea021f947e46bb6a0290e463e19cd0bd8734101772f956c04e9b433a099fcf18dee8a92d9fdd",
+          "sha256": "f28aa49b545c6abf93f35ecfdc93d62ea13a5f0da2e35b70ef2b2779d9857d72",
+          "sha1": "8f0535761a91aa42a0e0b988a9fc1407a714906b",
+          "md5": "9e97b8c99a026a743740bb0a911de2bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-retry",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teleport-1.0.0.jar",
+          "url": "teleport-1.0.0.jar",
+          "size": 9354,
+          "sha512": "81bbfece61e46a270bb7e617070f2fe6a33a3f78a5d6e215630dea021f947e46bb6a0290e463e19cd0bd8734101772f956c04e9b433a099fcf18dee8a92d9fdd",
+          "sha256": "f28aa49b545c6abf93f35ecfdc93d62ea13a5f0da2e35b70ef2b2779d9857d72",
+          "sha1": "8f0535761a91aa42a0e0b988a9fc1407a714906b",
+          "md5": "9e97b8c99a026a743740bb0a911de2bb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teleport-1.0.0-javadoc.jar",
+          "url": "teleport-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "a16236066c9bd5fe8f64b913ae07f1e1af1fe31fb1d06f8ce76924a6bdac8df29ccffa955863f78d7f0ca65a0d5db621d25009f5784602975f57bd5b53b98ee6",
+          "sha256": "dd914a9574a451a949302e53a30c19b89b5b89a68c7a24f31d8b8cbf30254438",
+          "sha1": "a6f9c6d45a12335b635be76b6f73d463402689ca",
+          "md5": "7b70e3a017c072ca29a32e67f568a3c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teleport-1.0.0-sources.jar",
+          "url": "teleport-1.0.0-sources.jar",
+          "size": 1956,
+          "sha512": "6e3155f71673f8bd0a307ec60eea7ce5b0a63b85a9b16ec140b6f0d1337ded26b34e2872f3944c6ebb8092d7f126ce93603202ac7eb488d61a2f30c73ab9ba45",
+          "sha256": "c4115795c4b6f7ce80422f4b7c577df3c2fdff1cc7839f59d44301b70c860c7b",
+          "sha1": "3f54e58aa057ec9c34195d71631ea2a7a3c899b4",
+          "md5": "8a6011c6d040ca2bdbcf0a5e91288a87"
+        }
+      ]
+    }
+  ]
+}
