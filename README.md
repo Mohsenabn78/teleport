@@ -9,7 +9,7 @@ Teleport is a Gradle plugin that automates the delivery process of Android appli
 
 ## Usage
 
-To use Teleport and send your Android application to a Telegram channel, you first need to create a Telegram bot and add it to your channel. Then, you need to add the bot token and chat ID to your `config.json` file. Here's how you can create a bot and add it to your channel:
+To use Teleport and send your Android application to a Telegram channel, you first need to create a Telegram bot and add it to your channel. Then, you need to add the bot token and chat ID to your `secret.json` file. Here's how you can create a bot and add it to your channel:
 
 1. Log in to your Telegram account in the Telegram app.
 2. Open a chat with @BotFather and send the `/newbot` command to create a new bot.
