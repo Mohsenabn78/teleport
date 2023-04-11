@@ -53,7 +53,8 @@ configure<TeleportExtension> {
 ```
 
 If you do not specify a value, the default value will be set
-
+| params | default value |
+| -------- | -------------- |
 | enabled  | true           |
 | attemptCount | 1 |
 | attemptDuration | 5000 |
