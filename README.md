@@ -49,7 +49,7 @@ configure<TeleportExtension> {
     attemptDuration.set(5000)
     caption.set("My app")
     applicationName.set("MyAppName")
-    buildType.set("ApplicationMode.DEBUG")
+    buildType.set(ApplicationMode.DEBUG)
 }
 ```
 
